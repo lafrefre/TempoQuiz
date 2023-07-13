@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <!-- This is where the start buttion for my quiz will be -->
+    <div class = "start_btn"><button>Start Quiz</button></div>
+<!-- Ill be making a sectoin/box where the rules/info are at -->
+<!-- I decided to structure my code this was so that later on i can use it for my css -->
+    <div class="info_box">
+        <div class="info_title"><span>The following are the rules for the Quiz</span></div>
+        <div class="infolist">
+            <div class="info">1. You will only have <span>10 seconds</span> for each question.</div>
+            <div class="info">2. Once you have selected your answer, it will contine onto the next question.</div>
+            <div class="info">3. Once the timer has gone off you can no longer choose an answer.</div>
+            <div class="info">4. You cannot exist from the Quiz once its has started.</div>
+            <div class="info">5. You will receive points baised on correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+<!-- Box for my quiz -->
+<div class="quiz_box">
+    <header>
+        <div class="title">My First Quiz </div>
+        <div class="timer">
+            <div clas ="time_left_txt">Time left</div>
+            <div class="timer_sec">10</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class = "que_text">
+        <!-- Ive put question count number from javascript -->
+    </div> 
+    <div class="option_list">
+        <!-- ive put options in from javascript -->
+    </div>
+</section>
+
+<!--This section is the footer for my quiz box -->
+ <footer> 
+    <div class="total_que">
+        <!-- ive put the question count number from javascript -->
+    </div>
+    <button class="next_btn">Next question</button>
+ </footer>
+</div>
+
+<!-- Box where results will go -->
+<div class="result_box">
+    <div class="complete_text">You have completed the Quiz!</div>
+    <!-- Score from javascript -->
+    <div class="score_text">
+    </div>
+</div>
+
+
+
+</body>
+</html>
